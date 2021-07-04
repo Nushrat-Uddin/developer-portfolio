@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 span{
     color: rgb(236, 119, 9);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
     
@@ -20,6 +23,10 @@ section{
     padding-top: 5%;
     padding-bottom: 5%;
     margin: 10px 20px;
+}
+.header-two{
+    width: 50%;
+ 
 }
 .image img{
     height:500px;
@@ -45,4 +52,41 @@ section{
     background-repeat: no-repeat;
     background-position: right;
    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 5px;
+    
+}
+.orange{
+    color: orange;
+}
+.header-two{
+    width: 600px;
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid rgba(255, 0, 0, 0.76);
+}
+.header-three{
+    width: 600px;
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+#foot{
+    text-align: center;
+    color:dimgray;
+    font-size: 18px;
 }
